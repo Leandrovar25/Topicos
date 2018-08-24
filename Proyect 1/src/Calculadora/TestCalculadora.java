@@ -9,30 +9,42 @@ public class TestCalculadora {
 @Test
 public void testsuma() {
 	int resultado = Calculadora.suma(7, 7);
-	assertEquals(14,resultado);
+	int esperado = 14;
+	assertEquals(esperado,resultado);
 	}
 
 @Test
-public void testresta() {
+public void testResta() {
 	int resultado = Calculadora.resta(7, 7);
-	assertEquals(0,resultado);
+	int esperado = 0;
+	assertEquals(esperado,resultado);
 	}
 
 @Test
-public void testmultiplcacion() {
+public void testMultiplcacion() {
 	int resultado = Calculadora.multiplicar(2,7);
-	assertEquals(14,resultado);
+	int esperado = 14;
+	assertEquals(esperado,resultado);
 	}
 
 @Test
-public void testdivision() {
+public void testDivision() {
 	int resultado = Calculadora.division(14,2);
-	assertEquals(7,resultado);
+	int esperado = 7;
+	assertEquals(esperado,resultado);
 	}
 
 @Test
-public void testdivisionCero() {
+public void testDivisionCero() {
 	int resultado = Calculadora.division(14,0);
-	assertEquals(0,resultado);
+	int esperado = 0;
+	assertEquals(esperado,resultado);
 	}
+
+@Test (expected=ArithmeticException.class)
+public void testDivideCero2(){
+	int resultado = Calculadora.division(14,0);
+	int esperado = 0;
+	assertEquals(esperado,resultado);
+}
 }
