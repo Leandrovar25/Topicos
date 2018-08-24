@@ -24,4 +24,11 @@ public void testmultiplcacion() {
 	assertEquals(14,resultado);
 	}
 
+@Test
+public void testdivision() {
+	int resultado = Calculadora.division(14,2);
+	assertEquals(7,resultado);
+	}
+
+
 }
