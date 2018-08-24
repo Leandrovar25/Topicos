@@ -27,4 +27,11 @@ public void testMultiplicar() {
 	assertEquals(esp,result);
 }
 
+@Test
+public void testDivide() {
+	int result= Calculadora.dividir(14,2);
+	int esp= 7;
+	assertEquals(esp,result);
+}
+
 }
