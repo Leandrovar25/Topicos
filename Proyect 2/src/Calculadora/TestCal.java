@@ -16,7 +16,7 @@ public void testSumar () {
 @Test
 public void testRestar() {
 	int result= Calculadora.resta(7,7);
-	int esperado= 0;
+	int esp= 0;
 	assertEquals(esp,result);
 }
 }
