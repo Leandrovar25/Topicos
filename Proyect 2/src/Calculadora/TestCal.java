@@ -19,4 +19,12 @@ public void testRestar() {
 	int esp= 0;
 	assertEquals(esp,result);
 }
+
+@Test
+public void testMultiplicar() {
+	int result= Calculadora.multiplicar(7,7);
+	int esp= 49;
+	assertEquals(esp,result);
+}
+
 }
