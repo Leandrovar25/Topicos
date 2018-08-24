@@ -12,4 +12,11 @@ public void testSumar () {
 	int esp = 14;
 	assertEquals (esp,result);
 }
+
+@Test
+public void testRestar() {
+	int result= Calculadora.resta(7,7);
+	int esperado= 0;
+	assertEquals(esp,result);
+}
 }
