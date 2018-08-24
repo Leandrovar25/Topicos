@@ -30,5 +30,9 @@ public void testdivision() {
 	assertEquals(7,resultado);
 	}
 
-
+@Test
+public void testdivisionCero() {
+	int resultado = Calculadora.division(14,0);
+	assertEquals(0,resultado);
+	}
 }
