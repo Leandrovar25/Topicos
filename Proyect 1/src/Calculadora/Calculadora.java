@@ -3,22 +3,19 @@ package Calculadora;
 
 public class Calculadora {
 	
-public int suma (int a, int b){
+public static int suma (int a, int b){
 	return a+b;
 }
 
-public int resta (int a, int b){
+public static int resta (int a, int b){
 	return a-b;
 }
 
-public int division (int a, int b){
+public static int division (int a, int b){
 	return a/b;
 }
 
-public int multiplicar (int a, int b){
+public static int multiplicar (int a, int b){
 	return a*b;
 }
-
-}
-
-
+} 
