@@ -9,4 +9,9 @@ public static int suma (int i, int j){
 public static int resta(int i, int j) {
 	return i-j;
 }
+
+public static int multiplicar(int i, int j) {
+	
+	return i*j;
+}
 }
