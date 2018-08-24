@@ -12,4 +12,9 @@ public void testsuma() {
 	assertEquals(14,resultado);
 	}
 
+@Test
+public void testresta() {
+	int resultado = Calculadora.resta(7, 7);
+	assertEquals(0,resultado);
+	}
 }
