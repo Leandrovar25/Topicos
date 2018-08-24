@@ -34,5 +34,21 @@ public void testDivide() {
 	assertEquals(esp,result);
 }
 
+@Test
+public void testDivideCero() {
+	int result= Calculadora.dividir(14,0);
+	int esp= 0;
+	assertEquals(esp,result);
+}
+
+@Test (expected=ArithmeticException.class)
+public void testDivideCero2() {
+	int result= Calculadora.dividir(14,0);
+	int esp= 0;
+	assertEquals(esp,result);
+}
+
+
+
 
 }
